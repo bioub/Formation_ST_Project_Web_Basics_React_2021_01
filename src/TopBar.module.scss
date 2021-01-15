@@ -1,0 +1,19 @@
+@import './styles/variables';
+
+$gap: 10px;
+
+.host {
+  display: flex;
+  background-color: $colorBlueSt;
+  padding: $gap;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin-right: $gap;
+}
+
+.active {
+  text-decoration: underline;
+}
