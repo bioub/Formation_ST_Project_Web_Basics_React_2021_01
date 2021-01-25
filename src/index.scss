@@ -28,4 +28,12 @@ a {
   cursor: pointer;
   padding: 10px;
   color: white;
+
+  span {
+    font-weight: bold;
+  }
+
+  &:hover {
+    background-color: lighten($colorBlueSt, 10%);
+  }
 }

@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="Home">
       <a href="https://www.st.com/" className="btn-link">
-        ST.com
+        <span>ST.com</span>
       </a>
       <a href="search.html" className="btn-link">
         Search Products
